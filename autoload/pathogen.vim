@@ -1,1 +1,1 @@
-/home/sylee/.vim/bundle/pathogen/autoload/pathogen.vim
+../bundle/pathogen/autoload/pathogen.vim
