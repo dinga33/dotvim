@@ -19,3 +19,6 @@
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = http://github.com/msanders/snipmate.vim
+[submodule "bundle/unimpaired"]
+	path = bundle/unimpaired
+	url = https://github.com/tpope/vim-unimpaired.git
