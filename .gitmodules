@@ -28,3 +28,15 @@
 [submodule "bundle/bufexplorer"]
 	path = bundle/bufexplorer
 	url = https://github.com/vim-scripts/bufexplorer.zip.git
+[submodule "bundle/nerdcommenter"]
+	path = bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "bundle/statline"]
+	path = bundle/statline
+	url = https://github.com/millermedeiros/vim-statline.git
+[submodule "bundle/trinity"]
+	path = bundle/trinity
+	url = https://github.com/vim-scripts/trinity.vim.git
+[submodule "bundle/srcexpl"]
+	path = bundle/srcexpl
+	url = https://github.com/vim-scripts/SrcExpl.git
