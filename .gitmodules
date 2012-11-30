@@ -36,7 +36,7 @@
 	url = https://github.com/millermedeiros/vim-statline.git
 [submodule "bundle/trinity"]
 	path = bundle/trinity
-	url = https://github.com/vim-scripts/trinity.vim.git
+	url = https://github.com/vim-scripts/Trinity
 [submodule "bundle/srcexpl"]
 	path = bundle/srcexpl
 	url = https://github.com/vim-scripts/SrcExpl.git
