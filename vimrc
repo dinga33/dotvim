@@ -1,9 +1,4 @@
 set nocompatible
-
-"pathogen
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
-
 set hls
 set hidden
 set number
@@ -23,22 +18,24 @@ endif
 "    autocmd bufwritepost .vimrc source $MYVIMRC
 "endif
 
+" pathogen
+runtime bundle/pathogen/autoload/pathogen.vim
+execute pathogen#infect()
+
 " solarized
-if has("gui_running")
-    colorscheme solarized
-endif
-let g:solarized_termcolors=  16
-let g:solarized_termtrans =   1
-let g:solarized_degrade   =   0
-let g:solarized_bold      =   1
-let g:solarized_underline =   1
-let g:solarized_italic    =   1
-let g:solarized_contrast  =   "normal"
-let g:solarized_visibility=   "normal"
-let g:solarized_hitrail   =   0
-let g:solarized_menu      =   1
+let g:solarized_termtrans  =   0
+let g:solarized_degrade    =   0
+let g:solarized_bold       =   1
+let g:solarized_underline  =   1
+let g:solarized_italic     =   1
+let g:solarized_termcolors =  16
+let g:solarized_contrast   =   "normal"
+let g:solarized_visibility =   "normal"
+let g:solarized_diffmode   =   "normal"
+let g:solarized_hitrail    =   0
+let g:solarized_menu       =   1
 syntax enable
-set background=light
+set background=dark
 colorscheme solarized
 
 " fugitive
